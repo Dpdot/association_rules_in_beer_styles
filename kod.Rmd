@@ -7,7 +7,7 @@ library(stringr)
 library(tidyverse)
 library(lubridate)
 
-klucz <- "&client_id=BEE5D99036C1A685A993F03F2112D91372339C48&client_secret=923B3926CB8482D5AF8CCC7661929E129DA4FAC0"
+klucz <- ""             #use your own
 
 untappdAPI <- function(adres) {
   adres_url <- paste(adres,klucz, sep = "")
